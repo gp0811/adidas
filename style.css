@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#head{
+    width: 100%;
+    height: 8%;
+    background-color: #34495e;
+    display: flex;
+}
+#i1{
+    margin-left: 40px;
+    margin-top: 8px;
+    width: 100px;
+    height: 50px;
+}
+#i2{
+    margin-left: 1270px;
+    margin-top: 8px;
+    width: 50px;
+    height: 50px;
+}
+#i3{
+    margin-left: 10px;
+    margin-top: 8px;
+    width: 50px;
+    height: 50px;
+}
+#menu{
+    position: absolute;
+    display: flex;
+    padding-top: 20px;
+}
+#p1{
+    width: 90px;
+    height: 70px;
+    font-size: 20px;
+    margin-left: 100px;
+    color: white;
+}
+#p3{
+    width: 90px;
+    height: 70px;
+    font-size: 20px;
+    color: white;
+    margin-left: 250px;
+}
+
+
+
+
+
+#back{
+    width: 100%;
+    height: 92%;
+    display: flex;
+}
+#parts{
+    width: 50%;
+    height: 100%;
+}
+.p1{
+    background-image: url('https://images.unsplash.com/photo-1463100099107-aa0980c362e6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b7d1df3fbecb8923c40cd429b2add590&auto=format&fit=crop&w=1050&q=80');   
+    background-size: cover;
+    background-position: bottom;
+}
+.p2{
+    background-image: url('https://images.unsplash.com/photo-1473010350295-2c82192ebd8e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a109d7fbb8f51e4916beaba96e42da85&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-position: bottom;    
+}
+
+#content{
+    width: 100%;
+    height: 92%;
+    position: absolute;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+#content h1{
+    font-weight: 900;
+}
+#content p{
+    font-size: 25px;
+    letter-spacing: 5px;    
+}
+
+#logo{
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    background-image: url('logo1.png');
+    background-size: cover;
+    background-position: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#b1{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    background-color: #fff200;
+    border-width: 0;
+    position: absolute;
+    left: 30%;
+    top: 83%;
+}
+
+#b2{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    background-color: #fff200;
+    border-width: 0;
+    position: absolute;
+    left: 60%;
+    top: 83%;
+}
